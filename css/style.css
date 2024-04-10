@@ -91,3 +91,34 @@ a {
     height: 50px;
     background-color: green;
 }
+
+@media all and (max-width: 500px)
+{
+
+    .header {
+        padding: 5px 10px;
+    }
+    .nav {
+        width: 85%;
+    }
+    
+    .nav-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main {
+        flex-wrap: wrap;
+    }
+
+    .printer-section {
+        flex-wrap: wrap;
+        margin: 10px 0;
+        width: 240px;
+    }
+    
+    .center-left, .center-right {
+        flex-wrap: wrap;
+    }
+}
